@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+	
+body{
+    font-family: inter;
+    background-color: #111111;
+  
+  }
+  
+  .container {
+    display: absolute;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 17%;
+    justify-content: center;
+  }
+  
+  .Title {
+    font-size: 80px;
+    color: #Faff00;
+    letter-spacing: 0.1em;
+  }
+  
+  .Title:before {
+    color: white;
+    content: "CHARLIE ";
+  }
+  
+  
+  
+  .explorebutton {
+    width: 248px;
+    height: 81px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #Faff00;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+  
+  }
+  
+  .explorebutton:hover {
+  
+    box-shadow: 7px 5px 56px -14px #C3D900;
+  
+  }
+  .explorebutton:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+  }
