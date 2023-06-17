@@ -1,26 +1,34 @@
 
 
 <body>
-    <nav class='Navbar'>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/work">My Work</a>
-        </li>
-        <li>
-            <a href="/blog">Blog</a>
-        </li>
+    <div class="navgrid">
+        <nav class='Navbar'>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/work">My Work</a>
+            </li>
+            <li>
+                <a href="/blog">Blog</a>
+            </li>
 
-    </ul>
-    </nav>
+        </ul>
+        </nav>
+</div>
 </body>
 
 
 <style>
-
-       
+    .navgrid {
+        display: grid;
+        grid-template-columns: 555px 500px 260px 260px;
+        column-gap: 35px;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .Navbar {
         display: flex;
         flex-direction: row;

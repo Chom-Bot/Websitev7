@@ -4,6 +4,7 @@
 body{
     font-family: inter;
     background-color: #111111;
+    letter-spacing: -0.06em;
   
   }
   
@@ -17,13 +18,12 @@ body{
   
   .Title {
     font-size: 80px;
-    color: #Faff00;
-    letter-spacing: 0.1em;
-  }
+    color: #Faff00; 
+   }
   
   .Title:before {
     color: white;
-    content: "CHARLIE ";
+    content: "Charlie ";
   }
   
   
@@ -40,13 +40,18 @@ body{
     text-align: center;
     cursor: pointer;
     transition: 0.4s;
-    letter-spacing: 0.1em;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     border-radius: 20px;
   
   }
   
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
   .explorebutton:hover {
   
     box-shadow: 7px 5px 56px -14px #C3D900;

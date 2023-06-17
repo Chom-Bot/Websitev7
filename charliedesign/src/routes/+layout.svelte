@@ -2,6 +2,7 @@
 
     import Navbar from "../components/Navbar.svelte";
     import Footer from "../components/Footer.svelte";
+    import styles from "./globals.css";
 
 </script>
 
@@ -11,5 +12,4 @@
     <main>
         <slot></slot>
     </main>
-    <Footer />
 </div>

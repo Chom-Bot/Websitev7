@@ -7,11 +7,11 @@
     <html lang="eng">
       <body>
         <div class="container">
-          <h1 class='Title'> DESIGN</h1>
+          <h1 class='Title'> Design</h1>
           
           <button  class='explorebutton'>
            
-            <strong>EXPLORE</strong>            
+            <strong>Explore</strong>            
    
           </button>
         </div>
