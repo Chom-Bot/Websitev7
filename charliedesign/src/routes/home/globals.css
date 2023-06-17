@@ -39,18 +39,7 @@ body {
     box-shadow: 7px 5px 56px -10px #C3D900;
   }
   
-  main {
-    text-align: center;
-    vertical-align: center;
-    
-    background: #111111;
-    display: absolute;
-  }
-  .main{
-    color: #FAFF00;
-    
-  }
-  
+
   .title{
     font-size: 96px;
     position: absolute;

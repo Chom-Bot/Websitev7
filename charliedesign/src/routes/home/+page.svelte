@@ -3,6 +3,7 @@
   import * as config from "$lib/config";
   import "./globals.css";
   export let data;
+  import Footer from "../../components/Footer.svelte";
 </script>
 
 <body>
@@ -194,3 +195,5 @@
     </div>
   </div>
 </body>
+
+<Footer />
