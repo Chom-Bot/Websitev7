@@ -9,11 +9,11 @@
         <div class="container">
           <h1 class='Title'> Design</h1>
           
-          <button  class='explorebutton'>
+          <a href="/home"><button  class='explorebutton'>
            
             <strong>Explore</strong>            
    
-          </button>
+          </button></a>
         </div>
       </body>
 
