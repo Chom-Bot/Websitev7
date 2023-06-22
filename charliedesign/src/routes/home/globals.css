@@ -14,19 +14,16 @@ body {
   
   button {
     height: auto;
+    padding: 15px 30px;
     width: auto;
     font-family: inter;
+    font-size: 18px;
     font-weight: 600;
     border: 0px solid;
-    border-radius: 20px;
-    padding-left: 33px;
-    padding-right: 33px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    border-radius: 15px;
     transition: 0.4s;
     background-color: #F8F1EC;
     color: #111111;
-    font-size: 20px;
     cursor: pointer;
   }
   
@@ -175,11 +172,6 @@ body {
     transition: all 0.5s ease-in-out;
   }
   
-  .Learnmorebutton {
-    width: 250px;
-    height: 60px;
-    margin-top: 5%;
-  }
   
   .cfdlogo {
     display: block;
@@ -271,9 +263,8 @@ body {
     gap: 10px;
   }
 .Latestwork h1 {
-
+  font-size: 25px;
   margin: 0;
-  font-size: 30px;
 }
 
   .Latestworkwrapper {
@@ -285,7 +276,7 @@ body {
     transition: all 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
   }
 
   .Latestworkwrapper:hover {
@@ -294,7 +285,6 @@ body {
   }
 .Latest_content {
   transition: all 0.3s ease-in-out;
-  font-size: 20px;
   font-weight: 600;
   text-align: center;
   align-items: center;
@@ -308,18 +298,17 @@ body {
 
 
 .Latest_content button {
-
-  width: 175px;
-  height: 50px;
-  font-size: 13px;
-  font-weight: 300;
-  padding: 10px 25px;
-  background-color: #FE1038;
+  background-color: white;
 }
 
 .Latest_content h2 {
   margin: 0;
   padding: 0%;
+  font-size: 18px;
+}
+
+.Latest_content p {
+  font-size: 25px;
 }
 
 .Latestworkwrapper:hover .Latest_content {
@@ -340,8 +329,6 @@ body {
     justify-content: center;
   }
   .Contactmebutton {
-    width: 300px;
-    height: 80px;
     position: flex;
     text-align: center;
     margin-right: auto;
@@ -427,47 +414,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  .CForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    border-radius: 46px;
-    width: 560px;
-    height: 500px;
-    background: #111111;
-    font-size: 50px;
-    padding: 20px 10px 10px;
-  }
-  
-  .Messagebutton {
-    height: 178px;
-    padding: 0.8rem 1.2rem;
-  }
-  .CForm input {
-    height: 57px;
-    border-radius: 46px;
-    border: 2px solid;
-    font-size:25px;
-    text-transform: uppercase;
-    font-family:inter;
-  }
-  .CForm .Messagebutton{
-    height: 178px;
-  }
-  
-  .CForm form{
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    width: 475px;
-    padding: 0 0 250px 0;
-    word-wrap: break-word;
-    word-break: break-all;
-  }
-  
-  
+
   .contact-form {
     display:flex;
     flex-direction: column;
@@ -619,18 +566,18 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-
+    color: black;
   }
 
 .Latestblog h1{
-
+  font-size: 30px;
   margin: 0;
 }
 
 .blogpost1, .blogpost2, .blogpost3 {
   width: 160px;
   height: 190px;
-  background-color: #FE1038;
+  background-color: white;
   display: flex;
   border-radius: 35px;
   transition: all 0.2s ease-in-out;
@@ -669,7 +616,6 @@ body {
   font-size: 20px;
   color: white;
   cursor: pointer;
-  width: 100px;
   transition: all 0.2s ease-in-out;
 }
 .Contactwrapper {
@@ -732,4 +678,61 @@ body {
 .techchunklink:hover {
   background-color: #111111;
   color: white;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+}
+
+.block1, .block2{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  gap: 4px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.block1 h3, .block2 h3 {
+  background-color: #111111;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0 15px 0 15px;
+  border-radius: 15px;
+  }
+
+.currentlylearning, .currentlylistening {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+
+
+}
+
+.currentlylearning img, .currentlylistening img {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.currentlylistening {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  background-color: #111111;
+
 }

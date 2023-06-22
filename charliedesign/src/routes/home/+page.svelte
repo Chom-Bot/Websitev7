@@ -108,6 +108,25 @@
             
 
         </div>
+
+        <div class="stats">
+
+          <div class="block1">
+            <h3>Learning:</h3>
+            <div class="currentlylearning">
+                <img src='/icons/svelte.svg' alt="SvelteKit">
+            </div>
+          </div>
+          <div class="block2">
+            <h3>Listening to:</h3>
+            <div class="currentlylistening">
+              <img src='/icons/daftpunk.jpg' alt="Daft Punk">
+            </div>
+          </div>
+          <div class="block3"></div>
+
+        </div>
+
       </div>
       <div class="techchunk">
         <div class="techchunkwrapper">

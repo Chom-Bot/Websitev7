@@ -38,6 +38,7 @@
         height: 50px;
         gap: 10px;
         font-size: 10px;
+        margin: 0;
         
     }
 
@@ -45,6 +46,7 @@
         text-align: center;
         align-items: center;
         align-content: center;
+        margin: 0;
     }
 
     .Navbar ul {
@@ -53,6 +55,8 @@
         gap: 10px;
         text-align: center;
         align-items: center;
+        margin: 0;
+        padding: 0;
 
     }
 
