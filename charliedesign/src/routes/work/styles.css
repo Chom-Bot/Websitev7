@@ -1,4 +1,6 @@
-
+body {
+    scroll-behavior: smooth;
+}
 
 h2 {
     font-size: 50px;
@@ -74,21 +76,88 @@ h2 {
     transform: scale(1.01);
 }
 
-.level1 {
-    margin-top: 35px;
-    align-items: center;
-    justify-content: center;
+.level1, .level2, .level3 {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    text-align: left;
+
+}
+
+.level1 h1, .level2 h1, .level3 h1 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 800px 450px 450px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.level3 {
+    margin-bottom: 65px;
 }
 
 
+.vstack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 60px;
+}
+
+.vstack2 {
+    display: flex;
+    flex-direction: row;
+}
+.sidebarwrapper {
+    position: fixed;
+    left: 80%;
+    top: 50%;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 25px;
+    align-items: flex-end;
+}
+
+.sidenav h3 {
+    margin: 0;
+}
+
+.topline {
+    width: 30px;
+    height: 60px;
+}
+.line {
+    width: 30px;
+    height: 50px;
+}
+.arrowcontainer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;    
+
+
+}
+
 .workgrid {
     display: grid;
-    grid-template-columns: 720px 373px 373px;
+    grid-template-columns: 800px 450px 450px;
     grid-template-rows: 340px 340px;
     column-gap: 30px;
     row-gap: 30px;
+    margin-bottom: 30px;
 }
 
 .content1, .content2, .content3, .content4, .workTitle {

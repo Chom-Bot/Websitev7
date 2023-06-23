@@ -131,7 +131,7 @@
       <div class="techchunk">
         <div class="techchunkwrapper">
           <h1>Check Out</h1>
-          <a href="https://google.com"><button class="techchunklink">TechChunk.</button></a>
+          <a href="https://chnk.tech"><button class="techchunklink">TechChunk.</button></a>
         </div>
       </div>
       <div class="Contactme">
