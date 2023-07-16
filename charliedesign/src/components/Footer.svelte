@@ -85,4 +85,12 @@
         font-size: 16px;
     }
 
+    @media (max-width: 500px) {
+        .footer {
+            display: none;
+        }
+    }
+
+
+
 </style>

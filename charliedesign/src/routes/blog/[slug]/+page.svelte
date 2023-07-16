@@ -13,17 +13,17 @@
 
 <article>
   <!-- Title -->
-	<hgroup>
+	<hgroup class="header">
 		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
+			<div class="information">
+			<p>{formatDate(data.meta.date)}</p>
+			<div class="tags">
+				{#each data.meta.categories as category}
+					<span class="catag">&num;{category}</span>
+				{/each}
+			</div>
+		</div>
 	</hgroup>
-
-  <!-- Tags -->
-	<div class="tags">
-		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
-		{/each}
-	</div>
 
   <!-- Post -->
 	<div class="prose">
@@ -39,6 +39,7 @@
 
 	h1 {
 		text-transform: capitalize;
+		margin: 0;
 	}
 
 	h1 + p {
@@ -48,12 +49,33 @@
 
 	.tags {
 		display: flex;
-		gap: var(--size-3);
-		margin-top: var(--size-7);
+		gap: 20px;
 	}
 
 	.tags > * {
-		padding: var(--size-2) var(--size-3);
-		border-radius: var(--radius-round);
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.information {
+		display: flex;
+		flex-direction: row;	
+		gap: 10px;
+
+	}
+
+	.header {
+		display:flex;
+		flex-direction: column;
+	}
+
+	.catag {
+		display: flex;
+		background-color: red;
+		margin: 0;
+		padding: 0;
 	}
 </style>
+
+

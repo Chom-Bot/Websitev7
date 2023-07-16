@@ -94,37 +94,37 @@
         </div>
       </div>
       <div class="Aboutme">
-        <img class="cfdlogo" src="/icons/logos/circle.svg" alt="logo" />
 
-        <div class="Nameandtitle">
-          <h1>Charlie Fox</h1>
-          <h2 class="DesignerandDev">and</h2>
-          <p class="Description">
-           <strong> Hi 👋, i’m Charlie.</strong>
-            <br />
-            I am a 3D Artist, Developer and Graphic Designer.
-            <br />
+        <div class="aboutheaderwrapper">
+
+          <img class="cfdlogo" src="/icons/logos/circle.svg" alt="logo" />
+
+          <div class="Nameandtitle">
+            <h1>Charlie Fox</h1>
+            <h2 class="DesignerandDev">and</h2>
+          </div>
 
             
 
         </div>
-
+        <p class="Description">
+            Hi 👋, i’m Charlie.
+           <br />
+           I am a 3D Artist, Developer and Graphic Designer.
+           <br />
+         </p>
         <div class="stats">
-
-          <div class="block1">
-            <h3>Learning:</h3>
-            <div class="currentlylearning">
-                <img src='/icons/svelte.svg' alt="SvelteKit">
+          <h2>I'm currently learning:</h2>
+          <div class="softwares">
+            <div class="S1">
+              <img src="/icons/svelte.svg" alt="sveltekit">
+              <h2>SvelteKit</h2>
+            </div> 
+            <div class="S2">
+              <img src="/icons/svelte.svg" alt="sveltekit">
+              <h2>Houdini</h2>
             </div>
-          </div>
-          <div class="block2">
-            <h3>Listening to:</h3>
-            <div class="currentlylistening">
-              <img src='/icons/daftpunk.jpg' alt="Daft Punk">
-            </div>
-          </div>
-          <div class="block3"></div>
-
+        </div>
         </div>
 
       </div>

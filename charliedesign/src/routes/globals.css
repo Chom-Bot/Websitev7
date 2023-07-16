@@ -3,6 +3,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body{
     font-family: inter;
     background-color: #111111;
@@ -62,4 +63,52 @@ a {
   .explorebutton:active {
     transform: scale(0.97);
     box-shadow: 7px 5px 56px -10px #C3D900;
+  }
+
+  @media (max-width: 500px) {
+
+    * {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    html {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .app {
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+
+    }
+    .container {
+      justify-content: center;
+      align-items: center;
+      margin-top: 50%;
+      margin-bottom: 50%;
+    }
+
+    .Title {
+      font-size: 50px;
+      color: #Faff00; 
+     }
+
+    .explorebutton {
+      width: auto;
+      height: auto;
+      font-size: 30px;
+      text-decoration: none;
+      color: black;
+    }
+    body {
+      margin: auto;
+    }
+
+    h2 {
+      font-weight: 500;
+    }
+
   }
