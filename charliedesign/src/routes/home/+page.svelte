@@ -10,7 +10,9 @@
   <div class="explorepage" id="blur">
     <div class="Maingrid">
       <div class="Myskills">
-        <h1 class="Skillstitle">My Skills</h1>
+        <div class="Skillstitle">
+          <h1>My Skills</h1>
+        </div>
 
         <div class="buttonblock">
           <div class="VFX">
@@ -144,21 +146,26 @@
         <h1>Follow Me</h1>
 
         <div class="Followbuttons">
+          <div class="Follow1">
           <button class="Youtubebutton">
             <img src="/icons/socials/youtube.svg" alt="youtube" />
           </button>
-
+          </div>
+          <div class="Follow2">
           <button class="Githubbutton">
             <img src="/icons/socials/github.svg" alt="github" />
           </button>
-
+          </div>
+          <div class="Follow3">
           <button class="Behancebutton">
             <img src="/icons/socials/behance.svg" alt="behance" />
           </button>
-
+          </div>
+          <div class="Follow4">
           <button class="Tiktokbutton">
             <img src="/icons/socials/tiktok.svg" alt="tiktok" />
           </button>
+          </div>
         </div>
       </div>
       <div class="Latestwork">
