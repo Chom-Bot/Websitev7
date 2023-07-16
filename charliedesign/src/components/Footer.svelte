@@ -46,11 +46,12 @@
         padding-left: 60px;
         padding-right: 60px;
         justify-content: space-between;
-        background-color: black;
+        background-color: #111111;
         grid-column: 1/4;
         color: white;
         align-items: center;
         text-align: left;
+        margin-bottom: 20px;
     }
 
     .linkcontainer a {

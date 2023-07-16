@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 body{
     font-family: inter;
-    background-color: #000000;
+    background-color: black;
     letter-spacing: -0.06em;
     color: white;
   }
@@ -110,5 +111,16 @@ a {
     h2 {
       font-weight: 500;
     }
+
+    .app {
+      background-color: black;
+    }
+    main {
+      background-color: black;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+  }
 
   }

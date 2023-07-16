@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 html {
-    background-color: #111111;
+    background-color: black;
 }
 
 body {
@@ -681,12 +681,40 @@ body {
 }
 
 .stats {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.stats h2 {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+}
+.softwares {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 5px;
+}
 
+.S1, .S2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-weight: 500;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.softwares h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.softwares img {
+  height: 25px;
 }
 
 .block1, .block2{
