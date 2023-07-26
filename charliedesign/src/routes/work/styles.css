@@ -16,8 +16,6 @@ h2 {
     align-items: center;
 }
 
-
-
 .header h1 {
     display: grid;
     font-size: 50px;
@@ -209,4 +207,10 @@ h2 {
     font-size: 50px;
     font-weight: 700;
     color: black;
+}
+
+@media (max-width: 500px) {
+    .h1 {
+        font-size: 30px;
+    }
 }
