@@ -81,7 +81,7 @@
         <div class="content2"></div>
         <div class="content3"></div>
         <div class="content4"></div>
-        <div class="workTitle">
+        <div class="worktitle">
           <h2>See More</h2>
         </div>
       </div>
