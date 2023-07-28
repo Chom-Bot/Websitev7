@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
-    import styles from "./globals.css";
+	import styles from './globals.css'
 	export let data
 </script>
 
@@ -13,69 +13,28 @@
 
 <article>
   <!-- Title -->
-	<hgroup class="header">
-		<h1>{data.meta.title}</h1>
-			<div class="information">
-			<p>{formatDate(data.meta.date)}</p>
+  <div class="grid">
+	<hgroup>
+		<h1 class="title">{data.meta.title}</h1>
+		<div class="subtitle">
+
+			<p class="date">{formatDate(data.meta.date)}</p>
+			<p class="author">{data.meta.author}</p>
+			
 			<div class="tags">
 				{#each data.meta.categories as category}
-					<span class="catag">&num;{category}</span>
+					<span class="surface-4">&num;{category}</span>
 				{/each}
 			</div>
+
 		</div>
+		<div class="prose">
+			<svelte:component this={data.content} />
+		</div>
+
+		
 	</hgroup>
 
-  <!-- Post -->
-	<div class="prose">
-		<svelte:component this={data.content} />
-	</div>
+</div>
+
 </article>
-
-<style>
-	article {
-		max-inline-size: var(--size-content-3);
-		margin-inline: auto;
-	}
-
-	h1 {
-		text-transform: capitalize;
-		margin: 0;
-	}
-
-	h1 + p {
-		margin-top: var(--size-2);
-		color: var(--text-2);
-	}
-
-	.tags {
-		display: flex;
-		gap: 20px;
-	}
-
-	.tags > * {
-		justify-content: center;
-		align-items: center;
-
-	}
-
-	.information {
-		display: flex;
-		flex-direction: row;	
-		gap: 10px;
-
-	}
-
-	.header {
-		display:flex;
-		flex-direction: column;
-	}
-
-	.catag {
-		display: flex;
-		background-color: red;
-		margin: 0;
-		padding: 0;
-	}
-</style>
-
-

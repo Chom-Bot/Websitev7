@@ -15,4 +15,51 @@
 			</li>
 		{/each}
 	</ul>
+
+<h1>Blog</h1>
+
+	<div class="latestblogposts">
+
+	{#each data.posts.slice(0, 1) as post}
+		<a href = blog/{post.slug} class="Latestpost"  style="background-image: url('{post.background}')">
+		<div class="latestpost">
+		  <div class="information">
+			<h2>{post.title}</h2>
+			<div class="info">
+			  <h3 class="date">{formatDate(post.date)}</h3>
+			  <h3>{post.author}</h3>
+			</div>
+		  </div>
+		  </div>
+	  </a>
+	{/each}
+	{#each data.posts.slice(1, 2) as post}
+	<a href = blog/{post.slug} class="Latestpost"  style="background-image: url('{post.background}')">
+		<div class="latestpost">
+		  <div class="information">
+			<h2>{post.title}</h2>
+			<div class="info">
+			  <h3 class="date">{formatDate(post.date)}</h3>
+			  <h3>{post.author}</h3>
+			</div>
+		  </div>
+		  </div>
+	  </a>
+	{/each}
+
+	{#each data.posts.slice(2, 3) as post}
+	<a href = blog/{post.slug} class="Latestpost"  style="background-image: url('{post.background}')">
+		<div class="latestpost">
+		  <div class="information">
+			<h2>{post.title}</h2>
+			<div class="info">
+			  <h3 class="date">{formatDate(post.date)}</h3>
+			  <h3>{post.author}</h3>
+			</div>
+		  </div>
+		  </div>
+	  </a>
+	{/each}
+
+	</div>
 </section>
