@@ -6,6 +6,8 @@ categories:
   - Website
   - Design
 published: true
+author: Charlie
+background: '/images/kitchen.png'
 ---
 
 this is how i built my website and the evoloution of how it came to be 

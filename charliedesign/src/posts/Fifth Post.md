@@ -1,7 +1,7 @@
 ---
-title: Building a Website
+title: Im really cool
 description: First post.
-date: '2023-4-14'
+date: '2078-4-14'
 categories:
   - sveltekit
   - svelte
