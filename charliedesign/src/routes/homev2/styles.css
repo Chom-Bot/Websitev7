@@ -1,0 +1,129 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+
+.herogrid {
+    display: grid;
+    grid-template-columns: 581px 1224px;
+    grid-template-rows: 534px;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 60px;
+    background-color: #0A0945;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.aboutme img {
+    height: 75px;
+}
+
+.favtoolscontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.favtoolscontainer h2 {
+    margin: 0;
+}
+
+.favtools {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.button {
+    background-color: #FE1038;
+    font-size: 20px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: 0;
+    transition: 0.4s;
+
+}
+
+.button:hover {
+    box-shadow: 7px 5px 56px -14px #FE1038;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #FE1038;
+}
+.slideshow {
+    border-radius: 60px;
+    background-color: #0A0945;
+}
+
+
+.Secondlayer {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 579px 579px 579px;
+    grid-template-rows: 323px;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+.Lcard {
+    background-color: #0A0945;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Thirdlayer {
+    margin-bottom: 50px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 399px 399px 399px 399px;
+    grid-template-rows: 555px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Pcard {
+    border-radius: 30px;
+    background-color: #0A0945;
+    background-position: center;
+    background-size: cover;
+}
+
+.Lworktitle {
+    justify-content: center;
+}
+
+@media (max-width: 500px)  {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .herogrid {
+        grid-template-columns: 300px;
+        grid-template-rows: 500px 200px;
+    }
+    .Secondlayer {
+        grid-template-columns: 259px 259px 259px;
+    }
+    .Thirdlayer {
+        display: none;
+        }
+}

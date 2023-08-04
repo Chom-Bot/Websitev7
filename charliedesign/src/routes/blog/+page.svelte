@@ -2,7 +2,10 @@
 	import { formatDate } from '$lib/utils'
 	export let data
 	import styles from './globals.css'
+
 </script>
+
+	
 
 <!-- Posts -->
 <section>

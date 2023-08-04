@@ -9,5 +9,3 @@ published: true
 ---
 
 This is cool! 🤩
-
-```ts

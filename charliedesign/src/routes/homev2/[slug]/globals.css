@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    padding: 0px 50px 0px 50px;
+}
+
+
+hgroup {
+    font-size: 24px;
+    grid-column: 2/4;
+}
+.title {
+    margin: 0;
+}
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+}
+.author {
+    font-weight: 500;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.surface-4 {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit : cover;
+    border-radius: 20px;
+}
+
+
+
+.LorD {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.LorD button {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.LorD .dislike:hover {
+    background-color: #fd0000;
+}
+
+.LorD .like:hover {
+    background-color: #03b703;
+}

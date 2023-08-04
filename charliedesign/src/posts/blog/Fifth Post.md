@@ -3,8 +3,8 @@ title: Im really cool
 description: First post.
 date: '2078-4-14'
 categories:
-  - sveltekit
   - svelte
+  - epic
 published: true
 author: Charlie
 ---

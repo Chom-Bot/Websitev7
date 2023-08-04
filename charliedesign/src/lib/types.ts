@@ -1,5 +1,5 @@
-export type Categories = 'sveltekit' | 'svelte'
-
+export type Categories = 'sveltekit' | 'svelte';
+		
 export type Post = {
 	title: string
 	slug: string
@@ -9,4 +9,5 @@ export type Post = {
 	published: boolean
 	author: string
 	background: string
+	pbackground: string
 }
