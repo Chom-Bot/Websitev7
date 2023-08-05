@@ -1,9 +1,4 @@
 export const prerender = true;
-import type { Categories } from '$lib/types';
-
-export interface RouteParams {
-	category?: Categories;
-  }
 
 import type { Post } from '$lib/types'
 

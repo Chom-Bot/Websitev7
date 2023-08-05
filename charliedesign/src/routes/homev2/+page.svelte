@@ -39,20 +39,16 @@
 <h2>My work</h2>
 
   <div class="Secondlayer">
-    {#each data.posts.slice(0, 1) as post}
-      <a href="/homev2/{post.slug} " class="Lcard" style="background-image: url('{post.background}')">
+      <a href="/homev2/kitchen" class="Lcard" style="background-image: url('thmbs/kitchen.png')">
       <div class="Lcard">  
 
       </div>
-    </a>
-    {/each}
-    {#each data.posts.slice(1, 2) as post}
-      <a href="/homev2/{post.slug} " class="Lcard" style="background-image: url('{post.background}')">
+    </a>  
+      <a href="/homev2/plane} " class="Lcard" style="background-image: url('thmbs/plane.png')">
       <div class="Lcard">  
 
     </div>
     </a>
-    {/each}
     {#each data.posts.slice(2, 3) as post}
     <a href="/homev2/{post.slug}" class="Lcard" style="background-image: url('{post.background}')">
       <div class="Lcard">
