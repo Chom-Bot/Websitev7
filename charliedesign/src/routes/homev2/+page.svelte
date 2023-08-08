@@ -31,7 +31,7 @@
         <div class="showreel" />
       </div>
     </div>
-    <div class="slideshow">
+    <div class="slideshow" style="background-image: url('thmbs/kitchen.png')">
         
     </div>
   </div>
@@ -44,17 +44,15 @@
 
       </div>
     </a>  
-      <a href="/homev2/plane} " class="Lcard" style="background-image: url('thmbs/plane.png')">
+      <a href="/homev2/plane " class="Lcard" style="background-image: url('thmbs/plane.png')">
       <div class="Lcard">  
 
     </div>
     </a>
-    {#each data.posts.slice(2, 3) as post}
-    <a href="/homev2/{post.slug}" class="Lcard" style="background-image: url('{post.background}')">
+    <a href="/homev2/bar" class="Lcard" style="background-image: url('thmbs/bar.png')">
       <div class="Lcard">
       </div>
     </a>
-    {/each}
   </div>
     <div class="Thirdlayer">
       {#each data.posts.slice(2, 3) as post}
